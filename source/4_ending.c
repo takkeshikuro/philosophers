@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   4_ending.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tmorikaw <tmorikaw@student.42.fr>          +#+  +:+       +#+        */
+/*   By: keshikuro <keshikuro@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/24 17:33:52 by tmorikaw          #+#    #+#             */
-/*   Updated: 2023/04/26 07:06:34 by tmorikaw         ###   ########.fr       */
+/*   Updated: 2023/05/07 19:21:37 by keshikuro        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,23 +74,3 @@ void	destroy(t_data *data)
 	}
 	waiting_thread(data);
 }
-/*
- (1)  5 800 200 200
-		no one should die
- (2)  5 600 150 150
-		 no one should die
-(3)   4 410 200 200
- 		no one should die
- (4)  100 800 200 200
- 		no one should die
- (5)  105 800 200 200
- 		no one should die
- (6)  200 800 200 200
- 		no one should die
- (7)  1 800 200 200
- 		a philo should die
- (8)  4 310 200 100
- 		a philo should die
- (9)  4 200 205 200
- 		a philo should die
-*/

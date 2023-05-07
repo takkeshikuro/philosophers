@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tmorikaw <tmorikaw@student.42.fr>          +#+  +:+       +#+        */
+/*   By: keshikuro <keshikuro@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/24 03:18:46 by tmorikaw          #+#    #+#             */
-/*   Updated: 2023/04/26 04:21:01 by tmorikaw         ###   ########.fr       */
+/*   Updated: 2023/05/07 19:21:06 by keshikuro        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,13 +55,15 @@ int					init_philos(t_data *data);
 int					init_data(t_data *data, int ac, char **av);
 int					check_if_null(t_data *data);
 
-
 // philo.c
-int					check_if_dead(t_philo *philo, t_data *data);
-void				print_status(t_philo *philo, const char *str);
+void				go_eat_bis(t_philo *philo);
 void				go_eat(t_philo *philo);
 int					check_is_finished(t_philo *philo, int ok);
 void				*process_start(void *arg);
+
+// philo_bis.c
+int					check_if_dead(t_philo *philo, t_data *data);
+void				print_status(t_philo *philo, const char *str);
 
 // ending.c
 int					error(char *str);
