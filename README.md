@@ -15,8 +15,8 @@ When eating, both forks should be used. If you lift both forks, eat for a certai
 
 Some inputs to test :
 
--5 800 200 200     =  no one should die
--5 600 150 150     =  no one should die
+@5 800 200 200     =  no one should die
+@5 600 150 150     =  no one should die
 -4 410 200 200     =  no one should die
 -100 800 200 200   =  no one should die
 -105 800 200 200   =  no one should die
