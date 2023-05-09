@@ -15,13 +15,13 @@ When eating, both forks should be used. If you lift both forks, eat for a certai
 
 Some inputs to test :
 
-@5 800 200 200     =  no one should die
-@5 600 150 150     =  no one should die
--4 410 200 200     =  no one should die
--100 800 200 200   =  no one should die
--105 800 200 200   =  no one should die
-#-200 800 200 200   =  no one should die
--200 410 200 200   =  no one should die (only on dell machine 👮)
+#5 800 200 200     =  no one should die
+#5 600 150 150     =  no one should die
+#4 410 200 200     =  no one should die
+#100 800 200 200   =  no one should die
+#105 800 200 200   =  no one should die
+#200 800 200 200   =  no one should die
+#200 410 200 200   =  no one should die (only on dell machine 👮)
 
 1 800 200 200     =  a philo should die
 4 310 200 100     =  a philo should die
@@ -34,4 +34,4 @@ Some inputs to test :
 4 -5 200 200      =  should error and not run (no crashing)
 4 600 -5 200      =  should error and not run (no crashing)
 4 600 200 -5      =  should error and not run (no crashing)
-#4 600 200 200 -5  =  should error and not run (no crashing)
+4 600 200 200 -5  =  should error and not run (no crashing)
