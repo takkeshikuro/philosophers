@@ -1,7 +1,5 @@
 # philosophers_42
 
-This is my philosopher project for 42 school.
-
 Dining philosophers problem is a problem created by Edsger Wybe Dijkstra in 1965 to explain the deadlock state of an operating system, which is traditionally commonly introduced in lectures on operating systems
 
 Subject is presented in the (https://cdn.intra.42.fr/pdf/pdf/66003/fr.subject.pdf)
